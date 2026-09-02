@@ -14,6 +14,16 @@ The screenshot above is output from the included binary-search-tree executable a
 
 ## Repository map
 
+```mermaid
+flowchart TD
+    P["C plus plus data structures"] --> A["Basic multilist"]
+    P --> B["Multidimensional multilist"]
+    P --> C["Binary search tree"]
+    A --> D["Insertion and traversal"]
+    B --> E["Cross dimensional relationships"]
+    C --> F["Ordered insertion and rendering"]
+```
+
 | Project | Primary focus |
 | --- | --- |
 | [Basic multilist](multilist-basic/) | Insertion, relationship management, and traversal |
