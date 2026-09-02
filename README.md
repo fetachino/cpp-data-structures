@@ -1,6 +1,22 @@
 # C++ Data Structures Portfolio
 
+[![C++](https://img.shields.io/badge/C++-17-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![CMake](https://img.shields.io/badge/CMake-build-064F8C?logo=cmake&logoColor=white)](https://cmake.org/)
+[![Data Structures](https://img.shields.io/badge/Data_Structures-custom_implementations-6C5CE7)](#projects)
+
 Three related C++ exercises demonstrating custom data-structure implementation, pointer-based relationships, traversal, and console visualization.
+
+## Repository map
+
+```mermaid
+flowchart TD
+    P[C++ Data Structures] --> A[Basic multilist]
+    P --> B[Multidimensional multilist]
+    P --> C[Binary search tree]
+    A --> D[Insertion and traversal]
+    B --> E[Cross-dimensional relationships]
+    C --> F[Ordered insertion and console rendering]
+```
 
 ## Projects
 
@@ -36,6 +52,10 @@ The build produces separate executables for each exercise.
 - Multidimensional relationships
 - Console visualization and debugging
 
-## Author
+## Verification status
 
-Ahmed Balde
+The project has a unified CMake configuration. A C++ compiler and CMake were unavailable during the latest portfolio packaging pass, so the build commands are documented but were not executed on that machine.
+
+## About the author
+
+Built by **Ahmed Balde** to demonstrate foundational C++ implementation skills beyond standard-library abstractions. See more work on [GitHub](https://github.com/fetachino).
