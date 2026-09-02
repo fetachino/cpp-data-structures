@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include <algorithm>
+#include <vector>
 
 Node::Node(int sid, int cid, int g) :
     studentID(sid), classID(cid), grade(g),

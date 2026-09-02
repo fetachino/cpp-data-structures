@@ -12,6 +12,12 @@ Three related C++ exercises demonstrating custom data-structure implementation, 
 
 The screenshot above is output from the included binary-search-tree executable after inserting 50 nodes.
 
+### Multilist output
+
+![Basic multilist console output grouped by class and student](docs/images/multilist-basic-output.png)
+
+This second compiled run shows the same enrollment nodes traversed through both class and student relationships.
+
 ## Repository map
 
 ```mermaid
