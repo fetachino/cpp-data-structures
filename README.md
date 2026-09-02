@@ -14,15 +14,11 @@ The screenshot above is output from the included binary-search-tree executable a
 
 ## Repository map
 
-```mermaid
-flowchart TD
-    P[C++ Data Structures] --> A[Basic multilist]
-    P --> B[Multidimensional multilist]
-    P --> C[Binary search tree]
-    A --> D[Insertion and traversal]
-    B --> E[Cross-dimensional relationships]
-    C --> F[Ordered insertion and console rendering]
-```
+| Project | Primary focus |
+| --- | --- |
+| [Basic multilist](multilist-basic/) | Insertion, relationship management, and traversal |
+| [Multidimensional multilist](multilist-dimensional/) | Cross-dimensional relationships and traversal |
+| [Binary search tree](binary-search-tree/) | Ordered insertion and console visualization |
 
 ## Projects
 
