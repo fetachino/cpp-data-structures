@@ -1,5 +1,3 @@
-main.cpp
-
 #include "CustomBST.h"
 #include <vector>
 #include <iostream>

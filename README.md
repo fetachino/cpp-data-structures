@@ -6,6 +6,12 @@
 
 Three related C++ exercises demonstrating custom data-structure implementation, pointer-based relationships, traversal, and console visualization.
 
+## Demo
+
+![Binary search tree console visualization](docs/images/binary-search-tree-output.png)
+
+The screenshot above is output from the included binary-search-tree executable after inserting 50 nodes.
+
 ## Repository map
 
 ```mermaid
@@ -54,7 +60,7 @@ The build produces separate executables for each exercise.
 
 ## Verification status
 
-The project has a unified CMake configuration. A C++ compiler and CMake were unavailable during the latest portfolio packaging pass, so the build commands are documented but were not executed on that machine.
+The binary-search-tree target was compiled and executed with the Visual Studio 2022 C++17 toolchain during the portfolio verification pass. The repository also includes a unified CMake configuration for all three exercises.
 
 ## About the author
 
